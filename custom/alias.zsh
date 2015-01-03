@@ -44,14 +44,15 @@ alias s2c="rsync -raz --progress lrb@192.168.0.101:/home/lrb/bw/ ~/bw/"
 alias grmd="git rm $(git ls-files --deleted)"
 alias gi="git init"
 
-alias f="fab "
+alias f="fab"
 alias pt="py.test "
 alias ms="mysql"
 
 
-alias db="docker build "
+alias db="docker build"
 alias ea='vim ~/.oh-my-zsh/custom/alias.zsh'
 alias sz='source ~/.zshrc'
 
 alias se='source .env'
 alias c=cat
+alias le=less
