@@ -1,20 +1,22 @@
+alias j=wd
+
 alias cl=clear
+
 alias h='history'
 alias hg='history | grep'
 alias hgi='history | grep -i'
 
 
-alias sc1='~/git/Space2Ctrl/s2cctl start'
-alias sc0='~/git/Space2Ctrl/s2cctl stop'
+alias s1='s2cctl start'
+alias s0='s2cctl stop'
 
 
-alias py2='python'
-alias ipy2='ipython'
-alias py='python3'
-alias ipy='ipython3'
+alias py='python'
+alias ipy='ptipython'
 
 alias wo='workon'
 alias wp='workon pearl'
+alias we='workon exp'
 
 alias pf='pip freeze | sort'
 alias pi='pip install'
@@ -56,3 +58,11 @@ alias sz='source ~/.zshrc'
 alias se='source .env'
 alias c=cat
 alias le=less
+alias ptpy=ptpython
+alias ptipy=ptipython
+
+
+alias sa='sudo apt-get'
+alias saa='sudo apt-get autoremove'
+alias sai='sudo apt-get install'
+alias sau='sudo apt-get update'

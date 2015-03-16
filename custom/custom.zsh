@@ -19,8 +19,8 @@ setopt AUTO_CD
 cdpath=(~/project_pearl ~/lab/django ~/lab/python ~/lab/ ~/git/)
 
 
-#autoenv
-source ~/.autoenv/activate.sh
+# autoenv
+# source ~/.autoenv/activate.sh
 
 
 #circos
@@ -39,7 +39,7 @@ source /usr/local/bin/virtualenv-auto-activate.sh
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### editor for tmuxinator
-export EDITOR='vim'
+export EDITOR='emacs'
 
 
 # virtual env
