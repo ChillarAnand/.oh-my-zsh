@@ -1,18 +1,36 @@
+alias sudo='sudo '
+
+alias sz='source ~/.zshrc'
+alias se='source .env'
+
+alias c=cat
+alias le=less
+
+alias a='sudo apt-get'
+alias aar='sudo apt-get autoremove'
+alias aac='sudo apt-get autoclean'
+alias ai='sudo apt-get install'
+alias au='sudo apt-get update'
+
 alias j=wd
+alias t=tree
+alias l=ls
 
 alias cl=clear
+alias gt='gnome-terminal'
 
 alias h='history'
 alias hg='history | grep'
 alias hgi='history | grep -i'
 
+alias p='ps -ef'
+alias psg='ps -ef'
 
 alias s1='s2cctl start'
 alias s0='s2cctl stop'
 
-
-alias py='python'
-alias ipy='ptipython'
+alias py='ipython'
+alias ipy='ipython'
 
 alias wo='workon'
 alias wp='workon pearl'
@@ -23,7 +41,8 @@ alias pi='pip install'
 alias pun='pip uninstall'
 
 alias dj="python manage.py"
-alias drs="python manage.py runserver"
+alias dji="python manage.py inspectdb"
+alias dr="python manage.py runserver"
 alias drp="python manage.py runserver_plus"
 alias dsh="python manage.py shell"
 alias dsp="python manage.py shell_plus"
@@ -50,19 +69,5 @@ alias f="fab"
 alias pt="py.test "
 alias ms="mysql"
 
+# alias db="docker build"
 
-alias db="docker build"
-alias ea='vim ~/.oh-my-zsh/custom/alias.zsh'
-alias sz='source ~/.zshrc'
-
-alias se='source .env'
-alias c=cat
-alias le=less
-alias ptpy=ptpython
-alias ptipy=ptipython
-
-
-alias sa='sudo apt-get'
-alias saa='sudo apt-get autoremove'
-alias sai='sudo apt-get install'
-alias sau='sudo apt-get update'

@@ -15,8 +15,8 @@ fi
 
 
 # cdpath to switch directories
-setopt AUTO_CD
-cdpath=(~/project_pearl ~/lab/django ~/lab/python ~/lab/ ~/git/)
+# setopt AUTO_CD
+# cdpath=(~/project_pearl ~/lab/django ~/lab/python ~/lab/ ~/git/) 
 
 
 # autoenv
@@ -28,32 +28,3 @@ cdpath=(~/project_pearl ~/lab/django ~/lab/python ~/lab/ ~/git/)
 
 
 #add docker alias file
-if [ -f ~/.oh-my-zsh/custom/docker_alias ]; then
-    source ~/.oh-my-zsh/custom/docker_alias
-fi
-
-
-#auto activate virtual env
-source /usr/local/bin/virtualenv-auto-activate.sh
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-### editor for tmuxinator
-export EDITOR='emacs'
-
-
-# virtual env
-__activate_venv() {
-    if [ -f ./venv/bin/activate ]
-    then
-        . ./venv/bin/activate
-        hash -r
-    else
-        if (type deactivate >/dev/null 2>&1)
-        then
-            deactivate
-            hash -r
-        fi
-    fi
-}
-export PROMPT_COMMAND="__activate_venv"
